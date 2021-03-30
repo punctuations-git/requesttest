@@ -1,6 +1,6 @@
 FROM node:latest 
 WORKDIR /
 COPY ./ .
-CMD ["npm", "start"]
+CMD ["node", "index.js"]
 
 EXPOSE 8800
